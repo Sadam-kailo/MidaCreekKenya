@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mida Creek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tours & Excursions</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Website!</h2>
+        <p>Discover amazing tours and excursions to beautiful destinations.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate travelers dedicated to providing unforgettable experiences.</p>
+    </section>
+
+    <section id="tours">
+        <h2>Featured Tours</h2>
+        <div class="tour">
+            <img src="tour1.jpg" alt="Tour 1">
+            <h3>Tour 1</h3>
+            <p>Explore the breathtaking landscapes of...</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="tour">
+            <img src="tour2.jpg" alt="Tour 2">
+            <h3>Tour 2</h3>
+            <p>Embark on an adventure to...</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- Add more tours as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book a tour? Reach out to us!</p>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>SamuelMumbi & Company; 2024 Tours & Excursions</p>
+    </footer>
+</body>
+</html>
